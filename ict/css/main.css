@@ -1,0 +1,20 @@
+body{
+      background: url(../img/bgxl.png) center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+.custom{  background: url(../img/bgbl.png) center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.image-wrapper{
+    padding-top: 15px;
+}
+
+.column-text{ padding-top: 15px;
+            
+}
