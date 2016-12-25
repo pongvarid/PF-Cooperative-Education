@@ -5,13 +5,13 @@
 
 <meta charset="UTF-8">
 </head>
-
+<body>
 <?php
 
 include './sqlcon.php';
 
 $op ='';
-$sql = "SELECT * FROM user WHERE name LIKE '%".$_POST["search"]."'";
+$sql = "SELECT * FROM user WHERE name LIKE '%".$_POST["search"]."%'";
 mysqli_set_charset($con,"set character set utf8");
 //$result = $con->query("set character set utf8");
 $result = mysqli_query($con,$sql);
@@ -38,4 +38,5 @@ if(mysqli_num_rows($result)>0){
 	echo "ไม่พบข้อมูล";
 }
 ?>
-
+</body>
+</html>
