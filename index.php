@@ -21,10 +21,10 @@ $style->font();
     <?php
     include './session.php';
         if(isset($objResult["username"])){
-            
-            if($objResult["role"]!="Student"){ header("location:mainAdmin.php");}
-            else {header("location:main.php");}
-			
+
+			header("location:main.php");
+
+      
         }
         else {echo '
  <center>
