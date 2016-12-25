@@ -4,7 +4,7 @@
 	error_reporting(~0);
 
 	$serverName	  = "localhost";
-	$userName	  = "pongv";
+	$userName	  = "pongvarid";
 	$userPassword	  = "1234";
 	$dbName	  = "ict";
 
