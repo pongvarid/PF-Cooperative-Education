@@ -92,7 +92,7 @@ $nav = new navbar();
             </a>
          </div>
          <div class="span4">
-                 <a class="tile wide imagetext bg-color-red middle" href="./hub.html">
+                 <a class="tile wide imagetext bg-color-red middle" href="./logout.php">
                <div class="image-wrapper">
                    <img class="img-responsive logo" id="logo" src="img/logout.png" alt="Smiley face" >
                </div>
