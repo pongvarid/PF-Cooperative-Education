@@ -57,17 +57,6 @@ if (isset($_GET["sort"])||isset($_GET["sort2"])) {
 	}
 }else{ $sql = "SELECT * FROM company"; }
 
-
-
-
-
-
-
-
-
-
-
-
 mysqli_set_charset($con,"set character set utf8");
 $result = mysqli_query($con,$sql);
 

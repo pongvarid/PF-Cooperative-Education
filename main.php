@@ -25,7 +25,7 @@ $nav = new navbar();
          <div id="home-tiles" class="container-fluid metro-responsive-tiles">
       <div class="row-fluid">
          <div class="span4">
-            <a class="tile wide imagetext bg-color-orange first" href="https://github.com/aozora/bootmetro">
+            <a class="tile wide imagetext bg-color-orange first" href="./stu_detail.php">
                <div class="image-wrapper">
                    <img class="img-responsive logo" id="logo" src="img/profile.png" alt="Smiley face" >
                </div>
@@ -38,7 +38,7 @@ $nav = new navbar();
             </a>
          </div>
          <div class="span4">
-             <a class="tile wide imagetext bg-color-blueDark middle" href="./formsearch.php">
+             <a class="tile wide imagetext bg-color-blueDark middle" href="./conpany_stu.php">
                <div class="image-wrapper">
                    <img class="img-responsive logo" id="logo" src="img/search.png" alt="Smiley face" >
                </div>
